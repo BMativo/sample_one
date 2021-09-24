@@ -1,0 +1,231 @@
+body {
+  background-color: #ece9e9;
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* General styles */
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(245, 6, 6, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* styling nav */
+nav {
+  background-color: red;
+  color: black;
+  height: 100px;
+  margin: 20px 0;
+  padding-top: 10px;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+}
+nav li {
+  display: inline;
+  padding: 5px 30px;
+}
+
+nav li:hover {
+  background-color: blue;
+}
+/* carousel section*/
+#carousel {
+  margin: 0%;
+  /* background-color: #69cee8; */
+  height: 300px;
+  /* border: red 1px solid; */
+  padding-top: 50px;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  padding-left: 50px;
+}
+#carousel header {
+  height: 150px;
+  text-align: center;
+}
+#carousel_content div {
+  display: inline-block;
+  text-align: center;
+}
+#carousel_title {
+  margin: auto;
+  text-align: left;
+}
+#carousel_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#carousel_image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: red 1px solid; */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(245, 6, 6, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Popular courses */
+#popular {
+  background-color: #69cee8;
+  margin: 50px;
+  text-align: center;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  padding-left: 50px;
+}
+
+#popular .popular_course {
+  /* border: black 1px solid; */
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(245, 6, 6, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Testimonial Card */
+#testimonial {
+  text-align: justify;
+  /* border: red 1px solid; */
+  padding: 20px;
+}
+#testimonia_header {
+  text-align: center;
+}
+.testimonial_card {
+  border: black 1px solid;
+  display: inline-block;
+  width: 400px;
+  /* border: red 1px solid; */
+  /* height: 400px; */
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(245, 6, 6, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Social media account */
+#social {
+  background-color: #69cee8;
+  height: 200px;
+  padding: 50px;
+  text-align: center;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  /* padding-left: 50px; */
+}
+.social_card {
+  /* border: black 1px solid; */
+
+  margin-top: 20px;
+  width: 300px;
+  height: 100px;
+  margin: 5px;
+  padding: 30px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.twitter {
+  background-color: #00acee;
+  color: white;
+}
+.youtube {
+  background-color: #ff0000;
+  color: white;
+}
+.linkedin {
+  background-color: #0e76a8;
+  color: white;
+}
+
+/* subscribe section */
+
+#subscribe {
+  /* background-color: cornsilk; */
+  margin: auto;
+}
+#subscribe header {
+  text-align: center;
+  padding: 50px;
+}
+
+.subscribtion_offer {
+  border: black 1px solid;
+  height: 500px;
+  padding: 5px;
+  width: 28%;
+  float: left;
+  /* display: inline-block; */
+  text-align: left;
+  margin: 20px 20px;
+  /* padding: 10px; */
+}
+.subscribtion_offer ul {
+  list-style-type: square;
+}
+
+/* Team section */
+#team_header {
+  text-align: center;
+  margin: 10px;
+  padding: 50px;
+}
+.team {
+  text-align: justify;
+  padding: 10px;
+  clear: both;
+  /* border: black 1px solid; */
+  margin: auto;
+  margin-bottom: 10px;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Footer */
+footer {
+  background-color: red;
+  height: 100px;
+  padding: 10px;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  padding-left: 50px;
+}
